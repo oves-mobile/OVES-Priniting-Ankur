@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_style"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="36dp">
+
+        <TextView
+            android:id="@+id/tvTipContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="11dp"
+            android:text="摄像头启动失败，请尝试在手机应用权限管理中打开权限"
+            android:textColor="#444"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tv_line"
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#ececec"/>
+
+    <LinearLayout
+        android:id="@+id/llytConfirmOp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llytTipOp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="21dp"
+        android:paddingTop="21dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textColor="#ff0000"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

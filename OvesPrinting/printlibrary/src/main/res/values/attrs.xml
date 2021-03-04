@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="TabButton">
+		<attr name="normal_bg_res" format="reference" />
+		<attr name="selected_bg_res" format="reference" />
+	</declare-styleable>
+</resources>
