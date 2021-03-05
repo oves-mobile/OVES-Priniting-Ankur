@@ -40,20 +40,4 @@ if (name.contentEquals("NAME_OF_PRINTER")) {
 5. That's it! Run app and you should get the expected output.
 
 ##### Please note that your printer should be able to print physically.
-
-
-
-
-
-all the ble communication protocol will be listed here. For this application, we have used hardware
-device (specifically, BLE Device). BLE works in Profiles, Descriptors and characteristic format. 
-What we have achieved in this app is simple read and write with the BLE Device. Apart from that, basic 
-features like bluetooth enabling automatically, permission asking, scanning the device, binding to 
-specified device and exploring its services have been implemented in this protocol.
-
-There are differences between indication and notification. indication should be used only when
-acknowledgement is needed. if not, one should only use notification.
-
-### Important Links
-1. [Indication vs Notification](https://community.nxp.com/t5/Wireless-Connectivity-Knowledge/Indication-and-Notification/ta-p/1129270)
-2. [Official BLE Documentation](https://developer.android.com/guide/topics/connectivity/bluetooth-le)
+ 
